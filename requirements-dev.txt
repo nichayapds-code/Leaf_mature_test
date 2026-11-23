@@ -1,0 +1,4 @@
+-r requirements.txt
+uvicorn>=0.29
+matplotlib>=3.7   # only for the CLI histogram figure
+httpx>=0.27       # for tests (FastAPI TestClient)
